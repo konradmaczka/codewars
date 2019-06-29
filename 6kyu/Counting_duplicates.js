@@ -1,0 +1,1 @@
+const duplicateCount = input => input.toLowerCase().split("").filter((a, b) => input.toLowerCase().split("").indexOf(a) !== b).filter((a, b) => input.toLowerCase().split("").filter((a, b) => input.toLowerCase().split("").indexOf(a) !== b).indexOf(a) === b).length
